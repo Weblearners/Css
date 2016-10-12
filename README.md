@@ -1,6 +1,6 @@
 <h1>CSS</h1>
 
-<b>Dersin amacı:</b> css ile HTML taglarını düzenlemeyi göstermek.
+<b>Dersin amacı:</b> Css ile HTML taglarını düzenlemeyi göstermek.
 
 <b>Ders içeriği:</b> HTML tagları ve Css.
 
