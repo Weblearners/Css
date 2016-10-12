@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Css</title>
+	<style>
+		body{
+		height: 1000px;
+		}
+		table,tr,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		#d{
+			width: 400px;
+			height: 200px;
+			background-color: yellow;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		.resim{
+			background-color: red;
+			background-image: url(img/pauLogo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 300px 300px;
+			background-attachment: absolute; 
+			display: show;	
+			margin-top: 100px;
+			margin-right: 100px;
+			margin-bottom: 100px;
+			margin-left: 100px;
+			min-height: 100px;
+			max-height: 550px;
+			overflow: scroll;
+			overflow-x: hidden;
+			overflow-y: hidden;
+			position: relative;
+			text-align: center;
+			font: 10px arial;
+			font-size: 10px;
+			font-family: sans-serif; 
+		}
+		.animation {
+		    width: 100px;
+		    height: 100px;
+		    background: red;
+		    position: relative;
+		    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+		    animation: mymove 5s infinite;
+		}
+		/* Chrome, Safari, Opera */
+		@-webkit-keyframes mymove {
+		    from {left: 0px;}
+		    to {left: 1190px;}
+		}
+
+		@keyframes mymove {
+		    from {left: 0px;}
+		    to {left: 1190px;}
+		}
+		.img{
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    		filter: grayscale(100%);
+		}
+
+
+	</style>
+</head>
+<body>
+	<p style="color: red;opacity: 0.5; bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, excepturi veritatis hic, optio deserunt aliquam dolore. Iste nobis quibusdam atque excepturi, omnis ut amet quod itaque blanditiis culpa aliquam aut.</p>
+	<div id="a">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae itaque qui aliquid, sequi nemo incidunt id distinctio voluptates iusto cum quam, rerum a, et quisquam dolorum sunt possimus dolorem. Temporibus harum eum, unde dolores possimus sunt maxime laboriosam ullam. Animi autem, amet quaerat soluta iure laboriosam reiciendis nisi fugiat! Laborum enim, odit unde odio, eligendi, molestias similique vero ullam voluptates fuga optio nostrum pariatur. Beatae dolorum molestias neque amet voluptatem deleniti nihil, ducimus sint. Ab tempore a, sunt assumenda vero quaerat, aut aliquam, omnis, dolorum natus explicabo! Temporibus non minus, sint maiores dolorem omnis neque, consectetur animi incidunt vitae sequi!</p>
+	</div>
+	<div class="resim">
+		<p style="border: 10px solid  blue; border-bottom-left-radius: 2em; border-color: cyan;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum autem sunt mollitia adipisci repellat recusandae animi ea expedita placeat veritatis vel dicta blanditiis neque enim esse tempore ipsa sequi, quae molestiae repellendus quas fugit aliquid! Tenetur officiis, aspernatur eaque repellendus omnis, ipsam id. Debitis aspernatur ducimus, asperiores ipsum veritatis, dolores repudiandae! At aliquam sint amet quia id, ipsa aperiam adipisci cupiditate tempora nobis, officia odit assumenda molestiae veniam repellat reiciendis facere consequatur explicabo impedit. Quis sunt debitis explicabo tempore hic nihil, tempora voluptas. Et veniam illo asperiores nostrum voluptatem perspiciatis quod sequi cum, eos consequatur nam cupiditate maxime dolore officia officiis libero rem, laudantium eligendi ipsam dolorum nesciunt! Quia libero sunt sint nesciunt praesentium quis eius, fugiat quidem natus illo repellat, laborum nemo ex mollitia tempore quod quasi quo dignissimos nihil consectetur eligendi amet quibusdam at soluta. Incidunt unde eius recusandae deserunt est, maxime consectetur id voluptatem quia, animi consequuntur nobis odio soluta ipsa officiis veniam magnam rerum! Aspernatur quidem nostrum, hic quo autem repudiandae quibusdam, voluptate facere magnam atque quasi optio sunt eum rem quae nemo incidunt sit laborum corrupti. Animi vel totam ut quasi alias delectus rerum eligendi numquam aut quae, corrupti, sint nisi dolore corporis optio ullam quibusdam ab impedit eius soluta accusantium repellat, aliquid. Quibusdam magnam eveniet, saepe quia animi non. Nihil repellendus iure impedit quis minima repudiandae, deleniti provident, optio illum reprehenderit dignissimos et doloribus mollitia, repellat sequi? A possimus doloremque ipsam iste inventore ullam aliquid. Non enim explicabo accusantium numquam est quo sequi optio atque fuga adipisci voluptatum amet beatae autem ipsa delectus dolore provident dolorum, temporibus assumenda nesciunt magni eius. At rerum non omnis iste sapiente reprehenderit temporibus, blanditiis doloribus, maiores assumenda possimus placeat provident labore velit dolores quis nulla cumque. Culpa ab sit dolore nulla nam enim natus asperiores nobis architecto facere.</p>
+	</div>
+	<br>
+	<div>
+		<table class="tablo">
+		<thead>
+			<tr> <!--satır-->
+				<td>Aylar</td> <!--sütun-->
+				<td>Gelir</td>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Ocak</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>Şubat</td>
+			<td>1500</td>
+		</tr>
+		</tbody>
+	</table>
+	</div>
+	<br>
+	<div id="d"></div><br>
+	<div class="animation"></div>
+	<div class="img">
+		<img style="width: 200px;height: 200px" src="img/pauLogo.png" alt="">
+	</div>
+	
+</body>
+</html>
